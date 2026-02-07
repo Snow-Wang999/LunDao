@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains API keys!)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Data files (session storage)
+server/data/*.json
+server/data/*.md
+
+# Test files
+server/test-apis.js
